@@ -2,7 +2,7 @@
   padding: 2rem 4rem;
   border: 1px solid var(--color-golden);
   background: var(--color-black);
-  z-index: 100;
+  z-index: 10;
 }
 
 .app__newsletter-heading {
@@ -44,6 +44,11 @@
 
   .app__newsletter-input {
     margin: 0 0 2rem 0;
+    width: 100%;
+  }
+
+  .app__newsletter-input input {
+    margin: 2rem 0 2rem 0;
     width: 100%;
   }
 }
